@@ -1,12 +1,10 @@
-import Square from './components/square';
-import './App.css';
+import Board from './components/board';
+import './styles.scss';
 
 function App() {
   return (
-    <div className="card">
-      Title
-      <img src="/vite.svg" alt="logo" />
-      <Square />
+    <div className="app">
+      <Board />
     </div>
   );
 }
